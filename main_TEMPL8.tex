@@ -1,0 +1,21 @@
+\documentclass[12pt]{report}
+\input{formatting_TEMPL8}
+
+\begin{document}
+	\pagenumbering{roman} 
+	
+	\input{title_TEMPL8}
+	\input{abstract_TEMPL8}	
+	\tableofcontents
+	\clearpage 
+	
+	\pagenumbering{arabic}
+	
+	\input{chapter1_TEMPL8}
+	\input{chapter2_TEMPL8}
+	
+	\renewcommand{\bibname}{References}
+	\bibliographystyle{IEEEtran}
+	\bibliography{references_TEMPL8}
+	
+\end{document}
